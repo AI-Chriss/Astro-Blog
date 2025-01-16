@@ -25,3 +25,5 @@ Welcome to my _new blog_ about learning Astro! Here, I will share my learning jo
 ## What's next
 
 I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+
+<button onclick="{history.back()}">Back</button>
