@@ -17,6 +17,8 @@ const goal = 3;
 const skillColor = "navy";
 const fontWeight = "bold";
 const textCase = "uppercase"
+
+import { Code } from 'astro:components';
 ---
 
 <html lang="en">
@@ -33,6 +35,10 @@ const textCase = "uppercase"
 		.skill {
 			color: var(--skillColor);
 			font-weight: var(--fontWeight)
+		}
+		.codeBlock {
+			width: 40%;
+			padding: 1rem;
 		}
 	  </style>
   </head>
@@ -59,5 +65,12 @@ const textCase = "uppercase"
 	{goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
 
 	<button onclick="{history.back()}">Back</button>
+
+	<!-- Syntax highlight some JavaScript code. -->
+	<Code 
+		class="codeBlock"
+		code={`const foo = 'bar';`} 
+		lang="js" 
+	/>
   </body>
 </html>

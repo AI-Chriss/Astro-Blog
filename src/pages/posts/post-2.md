@@ -8,4 +8,15 @@ image:
 pubDate: 2022-07-08
 tags: ["astro", "blogging", "learning in public", "successes"]
 ---
+
 After a successful first week learning Astro, I decided to try some more. I wrote and imported a small component from memory!
+
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l);
+  return true;
+};
+```
+
+TEST TEST TEST
