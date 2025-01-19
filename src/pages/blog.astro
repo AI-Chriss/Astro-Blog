@@ -1,4 +1,7 @@
 ---
+import '../styles/global.css';
+import Navigation from '../components/Navigation.astro'
+
 const pageTitle = "My Astro Learning Blog"
 
 const pagesList = [
@@ -11,7 +14,7 @@ const pagesList = [
     name: "Page 2"
   },
   {
-    id: 2,
+    id: 3,
     name: "Page 3"
   }
 ]
@@ -26,9 +29,8 @@ const pagesList = [
 		<title>{pageTitle}</title>
 	</head>
     <body>
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-      
+        <Navigation />
+
         <h1>{pageTitle}</h1>
         <p>This is where I will post about my journey learning Astro.</p>
         <ul>
