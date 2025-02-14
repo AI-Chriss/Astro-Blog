@@ -4,24 +4,13 @@ html {
   }
   
   body {
-    margin: 0 auto;
     width: 100%;
-    padding: 1rem;
     line-height: 1.5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
   
   * {
     box-sizing: border-box;
   }
-  
-  h1 {
-    margin: 1rem 0;
-    font-size: 2.5rem;
-  }
-
 
   @media screen and (min-width: 636px) {
     body {
@@ -31,7 +20,6 @@ html {
 
 /* nav styles */
 .hamburger {
-  padding-right: 20px;
   cursor: pointer;
 }
 
@@ -40,16 +28,16 @@ html {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: #ff9776;
+  background-color: purple;
 }
 
 .nav-links {
   width: 100%;
-  top: 5rem;
-  left: 48px;
-  background-color: #ff9776;
+  left: 0;
+  background-color: white;
   display: none;
   margin: 0;
+  position: relative;
 }
 
 .nav-links a {
@@ -63,7 +51,7 @@ html {
 }
 
 .nav-links a:hover, a:focus {
-  background-color: #ff9776;
+  background-color: dimgrey;
 }
 
 .expanded {
