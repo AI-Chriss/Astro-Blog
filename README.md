@@ -1,47 +1,48 @@
-# Astro Starter Kit: Minimal
+# Astro-Blog
 
-```sh
-npm create astro@latest -- --template minimal
+![Astro](https://img.shields.io/badge/Built%20with-Astro-blue?style=flat&logo=astro)
+
+A modern and lightweight blog built with [Astro](https://astro.build/). This project serves as a minimal starter kit for creating content-driven websites with Astro.
+
+## 🚀 Features
+
+- ⚡ **Blazing Fast** - Powered by Astro for optimal performance
+- 📝 **Markdown Support** - Write posts easily in Markdown
+- 🎨 **Customizable Theme** - Modify styling and layout as needed
+- 🔍 **SEO-Optimized** - Ensures high visibility on search engines
+
+
+## 📦 Installation
+
+To run this project locally, follow these steps:
+
+```bash
+git clone https://github.com/AI-Chriss/Astro-Blog.git
+cd Astro-Blog
+npm install
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+🏃 Running the Project
+Start the development server with:
+```bash
+npm run dev
 ```
+The blog should now be accessible at http://localhost:3000/ (or the port specified by Astro).
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+🛠 Deployment
+To build and deploy the blog:
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+```bash
+Kopiuj
+Edytuj
+npm run build
+```
+This generates static files inside the dist/ directory. You can deploy them to any static hosting provider (Netlify, Vercel, GitHub Pages, etc.).
 
-Any static assets, like images, can be placed in the `public/` directory.
+🤝 Contributing
+Contributions are welcome! Feel free to fork this repository, create a new branch, and submit a pull request with your improvements.
 
-## 🧞 Commands
+📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Made by AI-Chriss.
