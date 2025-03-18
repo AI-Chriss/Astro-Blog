@@ -2,7 +2,7 @@
 
 ![Astro](https://img.shields.io/badge/Built%20with-Astro-blue?style=flat&logo=astro)
 
-A modern and lightweight blog built with [Astro](https://astro.build/). This project serves as a minimal starter kit for creating content-driven websites with Astro.
+A modern and lightweight blog built with [Astro](https://astro.build/). 
 
 ## 🚀 Features
 
@@ -15,7 +15,6 @@ A modern and lightweight blog built with [Astro](https://astro.build/). This pro
 ## 📦 Installation
 
 To run this project locally, follow these steps:
-
 ```bash
 git clone https://github.com/AI-Chriss/Astro-Blog.git
 cd Astro-Blog
@@ -31,10 +30,7 @@ The blog should now be accessible at http://localhost:3000/ (or the port specifi
 
 🛠 Deployment
 To build and deploy the blog:
-
 ```bash
-Kopiuj
-Edytuj
 npm run build
 ```
 This generates static files inside the dist/ directory. You can deploy them to any static hosting provider (Netlify, Vercel, GitHub Pages, etc.).
