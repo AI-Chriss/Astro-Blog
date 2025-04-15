@@ -1,0 +1,21 @@
+---
+import Navigation from './Navigation.astro'
+import Hamburger from "./Hamburger.astro"
+---
+<header>
+  <nav class="flex flex-col sm:flex-row sm:justify-between sm:items-center">
+    <div class="flex justify-between items-center">
+      <h1>Chriss Dev</h1>
+      <Hamburger />
+    </div>
+    <Navigation />
+  </nav>
+</header>
+
+<style>
+  h1 {
+    font-family: var(--header);
+    background-color: var(--background);
+    font-size: 1.4rem;
+  }
+</style>
