@@ -1,22 +1,21 @@
 ---
-
+import { Image } from 'astro:assets';
+import avatarImg from '../assets/images/avatarImg.jpg';
 ---
-<div class="flex flex-col lg:flex-row my-6">
-    
-    <div>
+
+<div class="flex flex-col my-6">
     
       <div class="flex gap-x-4">
-          <img class="w-24 rounded-full" src="../public/images/avatarImg.jpg" />
-          <h1 class="text-2xl font-bold self-end">Krzysztof Lewandowski</h1>
+          <Image class="w-24 h-24 rounded-full" alt="avatar" src={avatarImg} />
+          <h1 class="text-2xl font-bold self-end">Krzysztof 
+          <br/>Lewandowski</h1>
       </div>
       
       <p class="py-6">
         Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
         quasi. In deleniti eaque aut repudiandae et a id nisi.
       </p>
-      
-    </div>
-
+</div>
 
 <style>
 </style>

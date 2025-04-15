@@ -1,8 +1,7 @@
 ---
 const { platform, username} = Astro.props;
 ---
+<a class="bg-white p-2 border-[#e5e5e5] rounded-full hover:bg-green" href={`https://www.${platform}.com/${username}`}>
+  <img class="w-8" src={`./public/icons/${platform}Icon.svg`} />
+</a>
 
-<button class="btn bg-white text-black border-[#e5e5e5]">
-  <img class="w-5" src={`./public/icons/${platform}Icon.svg`} />
-  <a href={`https://www.${platform}.com/${username}`}>{platform}</a>
-</button>
